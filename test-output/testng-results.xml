@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="23716" started-at="2022-10-13T19:02:44 PDT" finished-at="2022-10-13T19:03:08 PDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="23716" started-at="2022-10-13T19:02:44 PDT" finished-at="2022-10-13T19:03:08 PDT">
+      <class name="com.holinova.testcase.ErpSystemTest">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:com.holinova.testcase.ErpSystemTest@49c66ade]" name="beforeSuite" is-config="true" duration-ms="54" started-at="2022-10-13T19:02:44 PDT" finished-at="2022-10-13T19:02:44 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[src/test/resources/config/config.properties]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,int,java.lang.String)[pri:0, instance:com.holinova.testcase.ErpSystemTest@49c66ade]" name="beforeTest" is-config="true" duration-ms="2537" started-at="2022-10-13T19:02:44 PDT" finished-at="2022-10-13T19:02:46 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pc]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[desktop]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[4444]]>
+              </value>
+            </param>
+            <param index="5">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.holinova.testcase.ErpSystemTest@49c66ade]" name="beforeClass" is-config="true" duration-ms="35" started-at="2022-10-13T19:02:46 PDT" finished-at="2022-10-13T19:02:46 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="testERPBusinessFlow([Ljava.lang.Object;)[pri:1, instance:com.holinova.testcase.ErpSystemTest@49c66ade]" name="testERPBusinessFlow" duration-ms="13445" started-at="2022-10-13T19:02:47 PDT" description="ERP Register" data-provider="ERPData" finished-at="2022-10-13T19:03:01 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1d02af26]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testERPBusinessFlow -->
+        <test-method status="PASS" signature="testERPBusinessFlow([Ljava.lang.Object;)[pri:1, instance:com.holinova.testcase.ErpSystemTest@49c66ade]" name="testERPBusinessFlow" duration-ms="2929" started-at="2022-10-13T19:03:01 PDT" description="ERP Register" data-provider="ERPData" finished-at="2022-10-13T19:03:04 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@4337afd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testERPBusinessFlow -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.holinova.testcase.ErpSystemTest@49c66ade]" name="afterClass" is-config="true" duration-ms="1" started-at="2022-10-13T19:03:04 PDT" finished-at="2022-10-13T19:03:04 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.holinova.testcase.ErpSystemTest@49c66ade]" name="afterTest" is-config="true" duration-ms="3800" started-at="2022-10-13T19:03:04 PDT" finished-at="2022-10-13T19:03:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:com.holinova.testcase.ErpSystemTest@49c66ade]" name="afterSuite" is-config="true" duration-ms="1" started-at="2022-10-13T19:03:08 PDT" finished-at="2022-10-13T19:03:08 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.holinova.testcase.ErpSystemTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
