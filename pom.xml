@@ -8,7 +8,7 @@
     <artifactId>webui-test</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>WebUI Test Web App</name>
+    <name>Automation Test Web App</name>
 
     <!-- Attribute Config -->
     <properties>
