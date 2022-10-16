@@ -1,9 +1,5 @@
 [TOC]
 
-**[English](https://github.com/abcnull/webuitest4j/blob/master/README_en.md) | [博客](https://blog.csdn.net/abcnull/article/details/104119940)**
-
-**注意：此项目在不断的优化和拓展中，因此 readme 没有及时的更新！项目经过实战，此 readme 不是最新的项目样貌，仅仅是初代版的样子！但是此 readme 对于理解框架还是很有帮助的！后面会更新 readme！**
-
 # 简介
 
 该项目是 java 编写的使用 selenium 依赖包的 WebUI 测试项目
@@ -23,6 +19,7 @@ java + selenium + testng + maven + PO + 多线程 + slf4j + log4j + 截图 + ext
 - 调整了优先级
 - 支持 jenkins job 传参构建
 - 支持运行 hub 的浏览器节点
+- 支持excel和jdbc数据源
 
 # 使用介绍
 
@@ -32,7 +29,6 @@ java + selenium + testng + maven + PO + 多线程 + slf4j + log4j + 截图 + ext
 
 # 关系结构
 
-![1580447619807](https://github.com/abcnull/Image-Resources/blob/master/webuitest4j/1580447619807.png)
 
 - base 包
 
@@ -160,7 +156,7 @@ java + selenium + testng + maven + PO + 多线程 + slf4j + log4j + 截图 + ext
 
 # 待优化
 
-1. 目前支持谷歌，火狐，欧朋，Edge，IE 浏览器，以后会考虑加上对无界面浏览器和 safari 浏览器的支持
+1. 目前支持谷歌，火狐，欧朋，Edge，IE 浏览器，后期考虑增加原生移动端
 
 2. 目前对于 h5 的支持只有谷歌浏览器，往后会考虑 h5 支持火狐
 
