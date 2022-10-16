@@ -1,10 +1,7 @@
-[TOC]
-
-**[中文](https://github.com/abcnull/webuitest4j) | [Blog](https://blog.csdn.net/abcnull/article/details/106433145)**
 
 # Brief Intro
 
-This project is a WebUI test project written in Java that uses selenium dependencies
+This project is a Automation test project written in Java that uses selenium dependencies
 
 java + selenium + testng + maven + PO + multithreaded + slf4j + log4j2 + screenshot + extentreports + redis + muti-driver + h5 + priority + jenkins + grid
 
@@ -29,9 +26,6 @@ After pulling out the github project, you can run the local testng.xml or run th
 The PO object is split into data, and element location and page operation are placed in three packages.The PO object needs to inherit from BasePage.After writing the PO object, I wrote the test case directly. The test case would inherit the BaseTest. The test case would call the operation method of the PO to realize the test process. I organized the test cases into testng.xml, which I could use Jenkins to keep building
 
 # Project Structure
-
-![1580447619807](https://github.com/abcnull/Image-Resources/blob/master/webuitest4j/1580447619807.png)
-
 - base package
 
   There are BaseTest test base classes, BaseDriver drive base classes.In BaseTest, BaseDriver is mainly used to generate the driver, the configuration file reader is used to fetch the configuration file and the redis utility class is used to fetch the connection.In BaseDriver, it's all about configuring browsers
