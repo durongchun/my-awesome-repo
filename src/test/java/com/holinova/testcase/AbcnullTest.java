@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 public class AbcnullTest extends BaseTest {
     private AbcnullPage abcnullPage;
 
-    @Test(description = "abcnull页面_搜索测试", priority = 1)
+    @Test(description = "abcnull search page", priority = 1)
     public void testSearch() {
         
         abcnullPage = new AbcnullPage(driver, redisUtil);
